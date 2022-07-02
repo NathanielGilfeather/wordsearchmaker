@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Search Maker</title>
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+    <script src="/script.js" defer></script>
+    <h1>Word Search Maker</h1>
+    <input type="text" id="word" placeholder="Word..." /><button class="btn" id="addWordBtn">Add Word</button><error id="existsError">That word has already been added.</error>
+    <hr />
+    <div id="words">No words have been added yet.</div>
+    <hr />
+    <button class="btn" id="create">Make a Word Search!</button>
+    <error id="smallError">You must have at least one word added to generate a word search.</error>
+    <br />
+    <div id="wordSearch"></div>
+    <hr />
+    <small>made by Nathaniel G.</small>
+</body>
+</html>

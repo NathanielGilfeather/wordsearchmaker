@@ -1,0 +1,97 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 125ms all;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.btn {
+    background-color: rgb(231, 231, 231);
+    border: 3px solid #222;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn, input {
+    border-radius: 7.5px;
+    border: 3px solid #222;
+    padding: 10px;
+}
+
+.btn:hover, input:focus {
+    border: 3px solid rgb(184, 184, 184);
+    outline: none !important;
+    box-shadow: #222 0px 0px 4px;
+}
+
+.btn:hover {
+    filter: blur(0.5px);
+}
+
+input[type='text'] {
+    background-color: #dddddd;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding: 25px;
+    border-top: 5px dashed grey;
+    border-bottom: 5px dashed grey;
+}
+
+.tag {
+    background-color: lightGrey;
+    border: 3px solid grey;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+.tag:hover {
+    text-decoration: line-through;
+}
+
+error {
+    color: red;
+}
+
+#words {
+    background-color: #222;
+    margin: 5px;
+    border: 3px solid #555;
+    padding: 10px;
+    width: auto;
+    border-radius: 15px;
+    display: inline-block;
+    color: #f1f1f1;
+}
+
+#wordSearch {
+    padding: 45px 0px 45px 45px;
+    border: 3px solid #222;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    letter-spacing: 45px;
+    line-height: 45px;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    user-select: none;
+}
+
+letter {
+    font-family: "Courier New", Courier, monospace; 
+}
+
+small {
+
+}
+
+letter:hover {
+    opacity: 0.6;
+}
